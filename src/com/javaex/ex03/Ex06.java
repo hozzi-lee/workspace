@@ -8,13 +8,13 @@ public class Ex06 {
 		// 조건문 예제 - 3
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("점수를 입력하세요");
-		int point = sc.nextInt();
+		System.out.print("숫자를 입력하세요: ");
+		int num = sc.nextInt();
 
-		if ((point % 3) == 0) {
-			System.out.println(""+point+" 은(는) 3의 배수 입니다.");
+		if (num % 3 == 0) {
+			System.out.println(""+num+" 은(는) 3의 배수 입니다.");
 		} else {
-			System.out.println(""+point+" 은(는) 3의 배수가 아닙니다.");
+			System.out.println(""+num+" 은(는) 3의 배수가 아닙니다.");
 		}
 
 		sc.close();
